@@ -33,10 +33,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    /* position: fixed; */
 }
 
-.navbar ul li {
+.navbar menu li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
@@ -44,14 +44,14 @@ body {
 
 }
 
-.navbar ul li a {
+.navbar menu li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 
 }
 
-.navbar ul li::after {
+.navbar menu li::after {
     content: '';
     height: 3px;
     width: 0;
@@ -63,7 +63,7 @@ body {
 
 }
 
-.navbar ul li:hover::after {
+.navbar menu li:hover::after {
     width: 100%;
 
 }
@@ -92,6 +92,40 @@ h1 {
 
 }
 
+/* --------------------Grid página principal --------------*/
+
+.container {
+    background-color: red;
+    width: 90vw;
+    display: grid;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10rem auto;
+}
+
+.cuadri__item--1 {
+    background-color: #009688;
+}
+
+.cuadri__item--2 {
+    background-color: #009688;
+}
+
+.cuadri__item--3 {
+    background-color: #009688;
+}
+
+.cuadri__item--4 {
+    background-color: #009688;
+}
+
+.cuadri__item--5 {
+    background-color: #009688;
+}
+
+.cuadri__item--6 {
+    background-color: blue;
+}
 /*----------@media queries----------*/
 
 
@@ -103,4 +137,7 @@ h1 {
 
 }
 
-@media
+/* @media */
+
+
+
