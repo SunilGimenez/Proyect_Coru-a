@@ -1,43 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KitchenConsulting</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="encabezado">
-        <img src="" alt="Logo de la empresa"/>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#unPuntoDeLaPagina">Algo</a></li>
-                <li><a href="#footer">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="imagenprincipal">
-        <!-- <h1>Nombre de la empresa</h1> -->
-        <!-- <h2>Rubro al que se dedica</h2> -->
-        </div>
-    </header>  
+      <nav class="navbar">
+        <a href="index.html">
+          <img class="logo" src="./logo/1.png" alt="Logo de la empresa" />
+        </a>
+        <menu>
+          <li><a href="./about.html">Nosotros</a></li>
+          <li><a href="#footer">Contacto</a></li>
+        </menu>
+      </nav>
+      <div class="imagenprincipal">
+        <h1>Kitchen Consulting</h1>
+        <h2>Asosoría Gastronómica</h2>
+      </div>
+    </header>
     <main>
-        <section class="razon">
+      <section>
+        <ul class="articulo">
+          <li>
+            <article class="art art__item--1">
+              <h2>Marketing</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                eveniet excepturi incidunt reprehenderit nostrum. Accusamus,
+                aliquid, doloribus voluptatum fuga obcaecati eaque ipsum optio
+                quis, dicta vel ducimus corrupti perspiciatis totam?
+              </p>
+            </article>
+          </li>
+          <li>
+            <article class="art art__item--2">
+              <h2>Habilitación de cocinas</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                tenetur totam eos voluptates ipsa eveniet, non numquam maxime
+                ipsum quae vitae ut, voluptatum reiciendis! Cumque debitis qui
+                obcaecati numquam quis!
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
 
-        </section>
-        <section class="trayecctoria">
-
-        </section>
-        <section class="metodologia">
-
-        </section>
-        <img src="Imagenes/pexels-rene-asmussen-2544829.jpg" alt="">
+      <section class="container">
+        <div class="conteiner__item container__item--1">
+          <h3>Amor</h3>
+          <p>
+            Entregamos nuestro conociemiento y damos lo mejor de nosotros en
+            cada uno de nuestros trabajos
+          </p>
+        </div>
+        <div class="conteiner__item container__item--2">
+          <img
+            src="./Imagenes/cocina-con-cocinero-bl-y-neg.jpg"
+            class="container__img"
+            alt="imagen en blanco y negro de un cocinero en una cocina"
+          />
+        </div>
+        <div class="conteiner__item container__item--3">
+          <h3>Imaginación</h3>
+          <p>
+            Creamos nuevas recetas las cuales se aprueban con otros chefs antes
+            de ser mostradas
+          </p>
+        </div>
+        <figure class="conteiner__item container__item--4">
+          <img
+            src="./Imagenes/masa-y-harina.jpg"
+            class="container__img"
+            alt="imagen de un cocinero tirando harina sobre una masa"
+          />
+        </figure>
+        <div class="conteiner__item container__item--5">
+          <h3>Tiempo</h3>
+          <p>Dedicamos muchas horas a hacer esto porque es lo que nos gusta</p>
+        </div>
+        <figure class="conteiner__item container__item--6">
+          <img
+            src="./Imagenes/plato-postre.jpg"
+            class="container__img"
+            alt="Imagen de un plato de postre preparado profesionalmente"
+          />
+        </figure>
+      </section>
     </main>
     <footer id="footer">
-        <!-- <a href="AgregarCorreoSun">agregarElCorreo</a> -->
-        <!-- telefono de contacto -->
-        <!-- enlace a instagram si es que tenemos pagina -->
-        <!-- creadores de la página. 2024. Todos los derechos reservados -->
-    </footer>   
-</body>
+      <figure>
+        <img
+          class="logo logo_footer"
+          src="./logo/1.png"
+          alt="Logo de la empresa"
+        />
+      </figure>
+      <p>Diseño Web: Angel - Noelia - Sunil, 2024</p>
+      <p>Correo: <a href="https://gmail.com">algo@extension.com</a></p>
+      <ul>
+        <li>
+          <a href="https://instagram.com">Instagram</a>
+        </li>
+        <li>
+          <a href="https://linkedin.com">LinkedIn</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
